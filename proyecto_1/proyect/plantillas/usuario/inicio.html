@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}
+	<title>
+		Inicio
+	</title>
+{%endblock%}
+	
+{% block content %}
+	
+	<div class="Container">
+		<body background="{{STATIC_URL}}img/f1.jpg" bgcolor="FFCECB">
+		<div class="logotipo">
+			<div class="col-xs-12">
+				<DIV ALING="center"><img src="{{STATIC_URL}}img/logot.jpg"  height="280" width="1800"  /> </DIV>
+		</div>	</div>
+		<div class="navegadores">
+			<div class="col-xs-12">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="RegistroUser/"><FONT FACE="impact" SIZE=4 COLOR="black">
+ Registro</FONT></p>
+					<li class="active"><a href="/logeo"><FONT FACE="impact" SIZE=4 COLOR="black">
+ Cuenta_Usuario</FONT></p>
+ 					<li class="active"><a href="/Inicio"><FONT FACE="impact" SIZE=4 COLOR="black">
+ Inicio</FONT></p>
+				</ul>
+			</div>
+		</div>
+		<div class="contenido">
+
+			
+			<div class="col-xs-12">
+
+			<div class="jumbotron">
+  
+		        <p>	<FONT FACE="times new roman" SIZE=6 COLOR="blue">
+ Triviador es un juego donde podras demostrar tus habilidades mentales que tanto sabes y que tanto puedes demostrar </FONT></p>
+		        <p><li class="btn"><a href="/jugar" class="btn btn-primary" role="button"><FONT FACE="impact" SIZE=6 COLOR="red">
+ a juegar</FONT></p></a> </p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+			</body>
+			</div>
+			
+		</div>		
+		
+{%endblock%}

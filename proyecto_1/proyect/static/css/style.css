@@ -1,0 +1,38 @@
+
+
+.jumbotron{
+	margin-top: 100px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		margin-left: 70px;
+		border-color:#ff00ff;;
+
+}
+.active{
+		display: block;
+		margin-top: 2px;
+		margin-right: 2px;
+		margin-bottom: 2px;
+		margin-left: 2px;
+		color:#ffffff;
+
+}
+.btn{
+	margin-top: 15px;
+		margin-right: 1px;
+		margin-bottom: 1px;
+		margin-left: 1px;
+		
+}
+.contenido{
+	width:20%;
+	height: 120px;
+
+}
+.jumbotron
+{
+  width: 900px;
+  height: 450px;
+  background: yellow;
+}
+
